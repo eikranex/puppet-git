@@ -6,8 +6,8 @@ HOSTS:
     packaging_platform: sles-15-x64
     docker_image_commands:
       - zypper --non-interactive --no-gpg-checks install wget gzip
-      - wget https://yum.puppet.com/puppet6-release-sles-15.noarch.rpm
-      - zypper --non-interactive --no-gpg-checks install puppet6-release-sles-15.noarch.rpm
+      - wget https://yum.puppet.com/puppet7-release-sles-15.noarch.rpm
+      - zypper --non-interactive --no-gpg-checks install puppet7-release-sles-15.noarch.rpm
       - zypper --non-interactive --no-gpg-checks install puppet-agent
     hypervisor: docker
     roles: []
